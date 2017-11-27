@@ -30,5 +30,7 @@
     "mockery": "^2.0.0",
     "sinon": "^1.17.6"
   },
-  "dependencies": {}
+  "dependencies": {
+    "simple-component-manager": "^0.8.0"
+  }
 }
