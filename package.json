@@ -1,22 +1,22 @@
 {
-  "name": "fido2-server-component-certs",
+  "name": "component-certs",
   "version": "0.0.1",
-  "description": "YOUR DESCRIPTION HERE",
+  "description": "A Component for storing and sharing x.509 certificates",
   "main": "index.js",
   "scripts": {
     "test": "istanbul cover _mocha",
     "docs": "jsdoc -c ./.jsdoc-conf.json",
-    "publish": "istanbul-coveralls && gh-pages --silent --repo https://$GH_TOKEN@github.com/apowers313/fido2-server-component-certs.git --dist docs"
+    "publish": "istanbul-coveralls && gh-pages --silent --repo https://$GH_TOKEN@github.com/apowers313/component-certs.git --dist docs"
   },
   "keywords": [],
   "author": "Adam Powers",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/apowers313/fido2-server-component-certs"
+    "url": "https://github.com/apowers313/component-certs"
   },
   "bugs": {
-    "url": "https://github.com/apowers313/fido2-server-component-certs/issues",
+    "url": "https://github.com/apowers313/component-certs/issues",
     "email": "apowers@ato.ms"
   },
   "devDependencies": {
@@ -31,6 +31,6 @@
     "sinon": "^1.17.6"
   },
   "dependencies": {
-    "simple-component-manager": "^0.8.0"
+    "component-class": ">=0.8.0"
   }
 }
