@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "istanbul cover _mocha",
-    "docs": "jsdoc -c ./.jsdoc-conf.json",
-    "publish": "istanbul-coveralls && gh-pages --silent --repo https://$GH_TOKEN@github.com/apowers313/component-certs.git --dist docs"
+    "docs": "jsdoc -c ./.jsdoc-conf.json"
   },
   "keywords": [],
   "author": "Adam Powers",
@@ -31,6 +30,6 @@
     "sinon": "^1.17.6"
   },
   "dependencies": {
-    "component-class": ">=0.8.0"
+    "component-class": "^0.9.2"
   }
 }
