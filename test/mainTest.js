@@ -1,7 +1,9 @@
+"use strict";
+
 var turnOnDebugLogging = true;
 
-var CertComponent = require ("../index.js");
-var assert = require ("chai").assert;
+var CertComponent = require("../index.js");
+var assert = require("chai").assert;
 
 var dummyComponentManager = {
     registerType: function() {},
@@ -23,14 +25,14 @@ var dummyLogger = {
         return new Proxy(function() {}, {
             get: function() {
                 return function(...msg) {
-                    if(turnOnDebugLogging) console.log(...msg);
+                    if (turnOnDebugLogging) console.log(...msg);
                 };
             },
         });
     }
 };
 
-describe ("cert tests", function() {
+describe("cert tests", function() {
     var cc;
     beforeEach(function() {
         cc = new CertComponent(dummyComponentManager);
