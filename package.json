@@ -1,6 +1,6 @@
 {
   "name": "component-certs-static",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Component for storing and sharing x.509 certificates",
   "main": "index.js",
   "scripts": {
@@ -30,6 +30,6 @@
     "sinon": "^1.17.6"
   },
   "dependencies": {
-    "component-class": "^1.0.0"
+    "component-class": "^2.0.0"
   }
 }
